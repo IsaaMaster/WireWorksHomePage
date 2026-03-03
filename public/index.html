@@ -120,21 +120,22 @@
       <div class="label">Get in Touch</div>
       <h2>Say hello. No pitch, just a conversation.</h2>
       <p class="body-text" style="max-width:520px;">Tell us a little about your business and what's taking up too much of your time. We'll get back to you within a day and we can take it from there.</p>
-      <form class="contact-form" onsubmit="handleSubmit(event)">
+      <form class="contact-form" action="https://api.web3forms.com/submit" onsubmit="handleSubmit(event)">
         <div class="form-row">
           <div class="field">
             <label>Your Name</label>
-            <input type="text" placeholder="Jane Smith" required>
+            <input type="text" name="name" placeholder="Jane Smith" required>
           </div>
           <div class="field">
             <label>Email Address</label>
-            <input type="email" placeholder="jane@yourbusiness.com" required>
+            <input type="email" name="email" placeholder="jane@yourbusiness.com" required>
           </div>
         </div>
         <div class="field">
           <label>What's taking up too much of your time right now?</label>
-          <textarea placeholder="e.g. We manually email every new inquiry to confirm their appointment, then update our spreadsheet, then follow up three days later…" required></textarea>
+          <textarea name="message" placeholder="e.g. We manually email every new inquiry to confirm their appointment, then update our spreadsheet, then follow up three days later…" required></textarea>
         </div>
+        <input type="hidden" name="access_key" value="1dc64bdc-4abd-4fdc-a1f1-00196acfb910">
         <button type="submit" class="btn">Send Message →</button>
         <p class="form-note">We'll reply within one business day. No spam, ever.</p>
       </form>
