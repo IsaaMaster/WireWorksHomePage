@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeaveWorks — Local Business Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">Weave<span>Works</span></div>
+    <a href="#contact" class="nav-cta">Get in Touch</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-tag">Two locals. Zero fluff.</p>
+      <h1>We help small businesses<br><em>stop wasting time</em> on repetitive work.</h1>
+      <p class="hero-sub">We're two people from the area who build simple automations for local business owners — lawyers, realtors, contractors, shop owners. If your team is stuck doing the same manual tasks every day, we'd love to talk.</p>
+      <a href="#contact" class="btn">Let's Talk — It's Free →</a>
+    </div>
+  </section>
+
+  <!-- WHAT WE ACTUALLY DO -->
+  <section id="what" class="section">
+    <div class="inner">
+      <div class="label">What We Do</div>
+      <h2>We connect your tools and cut out the busywork.</h2>
+      <p class="body-text">Most small businesses run on a mix of apps, spreadsheets, and email threads. Nothing talks to each other, so someone on your team ends up being the bridge — copying data, sending reminders, chasing down info. We fix that. We link your existing tools together so the boring stuff happens automatically, without anyone having to think about it.</p>
+      <div class="example-box">
+        <p class="example-label">A simple example:</p>
+        <p>A customer fills out your contact form. Normally, someone checks it later, manually adds them to a spreadsheet, and sends a follow-up email. With a basic automation, that whole sequence happens in seconds — no one has to touch it.</p>
+        <p>That's it. Nothing exotic. Just less manual work for your team.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMS WE HEAR -->
+  <section id="problems" class="section alt">
+    <div class="inner">
+      <div class="label">What We Hear Most</div>
+      <h2>Does any of this sound familiar?</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">📋</div>
+          <h3>Same data, entered twice</h3>
+          <p>You're entering the same customer info into multiple places — your CRM, a spreadsheet, an invoice tool. It's tedious and mistakes happen.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⏰</div>
+          <h3>Follow-ups that fall through</h3>
+          <p>A lead comes in on a Friday evening. By Monday, they've already moved on. You know you need a faster response, but you can't be available 24/7.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔁</div>
+          <h3>Repetitive tasks eating your week</h3>
+          <p>Sending the same type of email, compiling the same weekly report, scheduling the same kinds of appointments. It adds up to hours you'd rather spend elsewhere.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="process" class="section">
+    <div class="inner">
+      <div class="label">How It Works</div>
+      <h2>Simple from start to finish.</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <h3>We meet and listen</h3>
+            <p>We sit down with you — in person or on a call — and ask about your day-to-day. Where does time get wasted? What tasks feel repetitive? We just want to understand your business.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <h3>We propose something small</h3>
+            <p>We won't pitch you a big complicated system. We'll suggest one or two specific things we think could save you real time, and explain exactly how they'd work in plain English.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div>
+            <h3>We build it, you approve it</h3>
+            <p>We put it together, show you how it works, and make sure you're comfortable with it. No black boxes. If something's not right, we fix it until it is.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section alt">
+    <div class="inner about-grid">
+      <div class="founder-photo">
+        <p>📸</p>
+        <p>Your photo here</p>
+        <small>A real face goes a long way</small>
+      </div>
+      <div>
+        <div class="label">Who We Are</div>
+        <h2>Just two people who want to be genuinely helpful.</h2>
+        <p class="body-text">We're not a software company. We don't have a sales team or a pricing page with four tiers. We're two locals who learned how to automate workflows and want to offer that to businesses in our community.</p>
+        <p class="body-text">Right now, we're building our portfolio. That means our first few clients get our best work for free or very low cost — because we want to earn your trust and get some good case studies under our belt. We're upfront about that.</p>
+        <p class="body-text">If you're a fit, we'll tell you. If we can't actually help you, we'll tell you that too.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="inner">
+      <div class="label">Get in Touch</div>
+      <h2>Say hello. No pitch, just a conversation.</h2>
+      <p class="body-text" style="max-width:520px;">Tell us a little about your business and what's taking up too much of your time. We'll get back to you within a day and we can take it from there.</p>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="field">
+            <label>Your Name</label>
+            <input type="text" placeholder="Jane Smith" required>
+          </div>
+          <div class="field">
+            <label>Email Address</label>
+            <input type="email" placeholder="jane@yourbusiness.com" required>
+          </div>
+        </div>
+        <div class="field">
+          <label>What's taking up too much of your time right now?</label>
+          <textarea placeholder="e.g. We manually email every new inquiry to confirm their appointment, then update our spreadsheet, then follow up three days later…" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message →</button>
+        <p class="form-note">We'll reply within one business day. No spam, ever.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <strong>WeaveWorks</strong> — Local automation for local businesses · © 2025
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
